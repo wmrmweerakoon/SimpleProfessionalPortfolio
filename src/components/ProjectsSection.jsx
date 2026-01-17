@@ -69,15 +69,15 @@ export const ProjectsSection = () => {
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.slice(0, 4).map((tag, idx) => (
-                <span
+                  <span
                   key={idx}
-                  className="px-2.5 py-1 text-xs font-medium rounded-full bg-secondary/20 text-secondary border border-secondary/30 whitespace-nowrap"
+                  className="px-2.5 py-1 text-xs font-medium rounded-full bg-primary/20 text-primary border border-primary/30 whitespace-nowrap"
                 >
                   {tag}
                 </span>
                   ))}
                   {project.tags.length > 4 && (
-                    <span className="px-2.5 py-1 text-xs font-medium rounded-full bg-secondary/20 text-secondary-foreground border border-secondary/30 whitespace-nowrap">
+                    <span className="px-2.5 py-1 text-xs font-medium rounded-full bg-primary/20 text-primary border border-primary/30 whitespace-nowrap">
                       +{project.tags.length - 4} more
                     </span>
                   )}

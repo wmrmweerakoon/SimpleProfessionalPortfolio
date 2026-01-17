@@ -1,6 +1,6 @@
 import {
   Linkedin,
-  Mail,
+ Mail,
   Phone,
   ExternalLink
 } from "lucide-react";
@@ -17,24 +17,26 @@ export const ContactSection = () => {
           Feel free to reach out to me through any of these channels.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="space-y-6 max-w-2xl mx-auto">
           {/* WhatsApp */}
           <a
             href="https://wa.me/0786979790"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center justify-center p-6 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md"
+            className="flex items-center justify-between p-5 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md group"
           >
-            <div className="p-3 rounded-full bg-green-500/10 mb-4">
-              <Phone className="h-6 w-6 text-green-500" />
+            <div className="flex items-center space-x-4">
+              <div className="p-3 rounded-full bg-green-500 shadow-lg shadow-green-500/20">
+                <Phone className="h-6 w-6 text-white" />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="font-semibold text-lg">WhatsApp</h3>
+                <p className="text-muted-foreground">+94 78 697 9790</p>
+              </div>
             </div>
-            <h3 className="font-semibold text-lg mb-2">WhatsApp</h3>
-            <p className="text-center text-muted-foreground text-sm mb-3">
-              +94 78 697 9790
-            </p>
-            <div className="inline-flex items-center text-sm text-green-500 hover:underline">
+            <div className="flex items-center text-green-500 group-hover:underline">
               Message Now
-              <ExternalLink size={14} className="ml-1 text-green-500" />
+              <ExternalLink size={16} className="ml-1 text-green-500" />
             </div>
           </a>
 
@@ -43,36 +45,40 @@ export const ContactSection = () => {
             href="https://www.linkedin.com/in/ruvishan-maleesha-814510378"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center justify-center p-6 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md"
+            className="flex items-center justify-between p-5 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md group"
           >
-            <div className="p-3 rounded-full bg-blue-500/10 mb-4">
-              <Linkedin className="h-6 w-6 text-blue-500" />
+            <div className="flex items-center space-x-4">
+              <div className="p-3 rounded-full bg-blue-500 shadow-lg shadow-blue-500/20">
+                <Linkedin className="h-6 w-6 text-white" />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="font-semibold text-lg">LinkedIn</h3>
+                <p className="text-muted-foreground">Ruvishan Maleesha</p>
+              </div>
             </div>
-            <h3 className="font-semibold text-lg mb-2">LinkedIn</h3>
-            <p className="text-center text-muted-foreground text-sm mb-3">
-              Ruvishan Maleesha
-            </p>
-            <div className="inline-flex items-center text-sm text-blue-500 hover:underline">
+            <div className="flex items-center text-blue-500 group-hover:underline">
               View Profile
-              <ExternalLink size={14} className="ml-1 text-blue-500" />
+              <ExternalLink size={16} className="ml-1 text-blue-500" />
             </div>
           </a>
 
           {/* Email */}
           <a
             href="mailto:ruvishan.m.weerakoon@gmail.com"
-            className="flex flex-col items-center justify-center p-6 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md"
+            className="flex items-center justify-between p-5 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md group"
           >
-            <div className="p-3 rounded-full bg-blue-500/10 mb-4">
-              <Mail className="h-6 w-6 text-blue-500" />
+            <div className="flex items-center space-x-4">
+              <div className="p-3 rounded-full bg-blue-500 shadow-lg shadow-blue-500/20">
+                <Mail className="h-6 w-6 text-white" />
+              </div>
+              <div className="flex flex-col min-w-0"> {/* Added min-w-0 to allow text truncation */}
+                <h3 className="font-semibold text-lg">Email</h3>
+                <p className="text-muted-foreground truncate">ruvishan.m.weerakoon@gmail.com</p>
+              </div>
             </div>
-            <h3 className="font-semibold text-lg mb-2">Email</h3>
-            <p className="text-center text-muted-foreground text-sm mb-3">
-              ruvishan.m.weerakoon@gmail.com
-            </p>
-            <div className="inline-flex items-center text-sm text-blue-500 hover:underline">
+            <div className="flex items-center text-blue-500 group-hover:underline">
               Send Email
-              <ExternalLink size={14} className="ml-1 text-blue-500" />
+              <ExternalLink size={16} className="ml-1 text-blue-500" />
             </div>
           </a>
         </div>
