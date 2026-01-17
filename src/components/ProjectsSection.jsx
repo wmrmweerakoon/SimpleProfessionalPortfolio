@@ -1,13 +1,13 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
- {
+  {
     id: 1,
     title: "LeafLink – Plant Marketplace",
     description: "Full-stack MERN e-commerce platform for buying and selling plants. Features secure JWT authentication, Stripe payments, seller & admin dashboards, Cloudinary image storage, and an AI-powered plant care assistant using the Gemini API.",
     image: "/projects/Plant MarketPlace.png",
     tags: ["React", "Vite", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Stripe", "Cloudinary", "Gemini API", "React Toastify"],
-    demoUrl: "#",
+    demoUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7416509735992057857/",
     githubUrl: "https://github.com/wmrmweerakoon/Plant-Marketplace.git",
   },
   {

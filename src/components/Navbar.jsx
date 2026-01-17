@@ -79,9 +79,9 @@ export const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className={`px-4 py-2 rounded-full transition-all duration-300 relative text-foreground hover:text-primary hover:bg-primary/10 focus:outline-none focus:ring-2 focus:ring-primary font-bold ${
+              className={`px-4 py-2 rounded-full transition-all duration-300 relative text-foreground hover:text-primary hover:bg-primary/10 focus:outline-none focus:ring-2 focus:ring-primary font-medium font-unbounded text-sm ${
                 activeSection === item.href.substring(1) 
-                  ? "text-primary font-bold bg-primary/10" 
+                  ? "text-primary font-medium bg-primary/10" 
                   : "hover:scale-105"
               }`}
               onClick={(e) => {
@@ -149,8 +149,8 @@ export const Navbar = () => {
               <a
                 key={key}
                 href={item.href}
-                className={`px-6 py-3 rounded-full transition-all duration-300 relative overflow-hidden text-foreground hover:text-primary hover:bg-primary/10 focus:outline-none focus:ring-2 focus:ring-primary font-bold ${
-                  activeSection === item.href.substring(1) ? "text-primary font-bold bg-primary/10" : ""
+                className={`px-6 py-3 rounded-full transition-all duration-300 relative overflow-hidden text-foreground hover:text-primary hover:bg-primary/10 focus:outline-none focus:ring-2 focus:ring-primary font-medium font-unbounded text-sm ${
+                  activeSection === item.href.substring(1) ? "text-primary font-medium bg-primary/10" : ""
                 }`}
                 onClick={(e) => {
                   e.preventDefault();
