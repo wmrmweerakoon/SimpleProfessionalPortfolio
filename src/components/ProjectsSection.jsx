@@ -34,7 +34,7 @@ const projects = [
     description: "Full-stack AI web application that extracts PDF content and answers user questions using Google Gemini. Includes database storage, deployment, and a responsive UI.",
     image: "/projects/AI_PDF.png",
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express.js", "PDF.js", "Gemini API"],
-    demoUrl: "#",
+    demoUrl: "https://pdf-ai-finder.web.app/",
     githubUrl: "https://github.com/wmrmweerakoon/AskMyPDF.git",
   },
 ];
