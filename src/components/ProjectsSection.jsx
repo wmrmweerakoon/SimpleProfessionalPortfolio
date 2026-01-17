@@ -25,7 +25,7 @@ const projects = [
     description: "Mobile app UI/UX prototype designed in Figma to promote mindfulness and stress relief.",
     image: "/projects/Youcalm.png",
     tags: ["Figma", "UI/UX", "Prototyping", "Mindfulness", "Mobile Design"],
-    demoUrl: "#",
+    demoUrl: "https://www.figma.com/design/dgI38dwgz9Q7H679SC0XdG/MAD?node-id=0-1&t=fkreZlF7paIRDARB-1",
     githubUrl: "https://github.com/wmrmweerakoon/YouCalm-Mobile-UI-Prototype",
  },
   {
