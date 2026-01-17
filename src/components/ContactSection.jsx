@@ -14,7 +14,7 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Feel free to connect with me through any of these platforms.
+          Feel free to reach out to me through any of these channels.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -25,16 +25,16 @@ export const ContactSection = () => {
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-6 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md"
           >
-            <div className="p-3 rounded-full bg-accent/10 mb-4">
-              <Phone className="h-6 w-6" color="hsl(var(--accent))" />
+            <div className="p-3 rounded-full bg-green-500/10 mb-4">
+              <Phone className="h-6 w-6 text-green-500" />
             </div>
             <h3 className="font-semibold text-lg mb-2">WhatsApp</h3>
             <p className="text-center text-muted-foreground text-sm mb-3">
-              Connect with me directly on WhatsApp
+              +94 78 697 9790
             </p>
-            <div className="inline-flex items-center text-sm text-primary hover:underline">
+            <div className="inline-flex items-center text-sm text-green-500 hover:underline">
               Message Now
-              <ExternalLink size={14} className="ml-1" color="hsl(var(--accent))" />
+              <ExternalLink size={14} className="ml-1 text-green-500" />
             </div>
           </a>
 
@@ -45,16 +45,16 @@ export const ContactSection = () => {
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-6 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md"
           >
-            <div className="p-3 rounded-full bg-secondary/20 mb-4">
-              <Linkedin className="h-6 w-6" color="hsl(var(--secondary))" />
+            <div className="p-3 rounded-full bg-blue-500/10 mb-4">
+              <Linkedin className="h-6 w-6 text-blue-500" />
             </div>
             <h3 className="font-semibold text-lg mb-2">LinkedIn</h3>
             <p className="text-center text-muted-foreground text-sm mb-3">
-              Connect with me professionally on LinkedIn
+              Ruvishan Maleesha
             </p>
-            <div className="inline-flex items-center text-sm text-secondary hover:underline">
+            <div className="inline-flex items-center text-sm text-blue-500 hover:underline">
               View Profile
-              <ExternalLink size={14} className="ml-1" color="hsl(var(--secondary))" />
+              <ExternalLink size={14} className="ml-1 text-blue-500" />
             </div>
           </a>
 
@@ -63,20 +63,20 @@ export const ContactSection = () => {
             href="mailto:ruvishan.m.weerakoon@gmail.com"
             className="flex flex-col items-center justify-center p-6 rounded-xl bg-card hover:bg-card/80 transition-colors border border-border shadow-sm hover:shadow-md"
           >
-            <div className="p-3 rounded-full bg-accent/20 mb-4">
-              <Mail className="h-6 w-6" color="hsl(var(--accent))" />
+            <div className="p-3 rounded-full bg-blue-500/10 mb-4">
+              <Mail className="h-6 w-6 text-blue-500" />
             </div>
             <h3 className="font-semibold text-lg mb-2">Email</h3>
             <p className="text-center text-muted-foreground text-sm mb-3">
-              Send me an email anytime
+              ruvishan.m.weerakoon@gmail.com
             </p>
-            <div className="inline-flex items-center text-sm text-accent hover:underline">
+            <div className="inline-flex items-center text-sm text-blue-500 hover:underline">
               Send Email
-              <ExternalLink size={14} className="ml-1" color="hsl(var(--accent))" />
+              <ExternalLink size={14} className="ml-1 text-blue-500" />
             </div>
           </a>
         </div>
       </div>
     </section>
-  );
+ );
 };

@@ -12,12 +12,12 @@ export const ThemeToggle = () => {
   return (
     <div
       className={cn(
-        "p-2 rounded-full transition-colors duration-300 border-2 border-accent cursor-default",
-        "focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+        "p-2 rounded-full transition-colors duration-300 border-2 border-primary cursor-default",
+        "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
       )}
       aria-label="Light theme enabled"
     >
-      <Sun size={20} className="text-accent" />
+      <Sun size={20} className="text-primary" />
     </div>
   );
 };

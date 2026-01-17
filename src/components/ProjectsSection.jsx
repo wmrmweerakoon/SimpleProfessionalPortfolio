@@ -108,14 +108,14 @@ export const ProjectsSection = () => {
                   </div>
                   
                   <div className="flex space-x-2">
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs px-3 py-1.5 rounded-full bg-secondary/20 text-secondary hover:bg-secondary hover:text-secondary-foreground transition-colors duration-300"
-                  >
-                    Live Demo
-                  </a>
+                <a
+                  href={project.demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs px-3 py-1.5 rounded-full bg-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
+                >
+                  Live Demo
+                </a>
                   </div>
                 </div>
               </div>

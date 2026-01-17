@@ -108,8 +108,8 @@ export const Navbar = () => {
           <a
             href="/cv.pdf" // Update this path to your actual CV file
             download
-            className="hidden md:block px-4 py-1.5 rounded-full bg-foreground text-background font-medium 
-                   transition-all duration-300 hover:shadow-[0_0_10px_rgba(0,0,0.3)] hover:scale-105 active:scale-95 text-sm"
+            className="hidden md:block px-4 py-1.5 rounded-full bg-primary text-primary-foreground font-medium 
+                   transition-all duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:scale-105 active:scale-95 text-sm"
             aria-label="Download CV"
           >
             Download CV
