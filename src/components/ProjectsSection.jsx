@@ -17,7 +17,7 @@ const projects = [
     image: "/projects/Portfolio.png",
     tags: ["React", "Vite", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "Framer Motion", "React Parallax Tilt", "Responsive Design"],
     demoUrl: "#",
-    githubUrl: "https://github.com/wmrmweerakoon/Personal-Portfolio",
+    githubUrl: "#",
   },
   {
     id: 3,
