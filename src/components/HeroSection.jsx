@@ -7,7 +7,7 @@ export const HeroSection = () => {
       className="relative min-h-screen flex items-center px-4 py-12 pt-20"
     >
       <div className="container max-w-6xl mx-auto z-10">
-        <div className="flex flex-col md:flex-row items-center gap-10 md:gap-12">
+        <div className="flex flex-col md:flex-row items-center gap-16 md:gap-20">
           {/* Profile Image - Left Side */}
           <div className="flex-shrink-0 flex justify-center md:block order-2 md:order-1">
             <div className="p-1 bg-gradient-to-br from-primary to-secondary rounded-xl overflow-hidden shadow-xl shadow-primary/20">
