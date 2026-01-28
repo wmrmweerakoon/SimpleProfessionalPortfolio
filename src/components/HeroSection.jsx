@@ -30,8 +30,8 @@ export const HeroSection = () => {
                 Software Engineering Undergraduate at SLIIT
               </h2>
 
-              <h3 className="text-sm md:text-base text-muted-foreground">
-                Full-Stack Developer, Application Builder
+              <h3 className="text-sm md:text-base text-muted-foreground ">
+                Full-Stack Developer, AI Application Builder
               </h3>
             </div>
 
