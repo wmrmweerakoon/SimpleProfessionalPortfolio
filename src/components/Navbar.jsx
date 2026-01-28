@@ -106,7 +106,7 @@ export const Navbar = () => {
         {/* Download CV Button and Mobile menu */}
         <div className="flex items-center space-x-2">
           <a
-            href="/cv.pdf" // Update this path to your actual CV file
+            href="/Ruvishan_Resume.pdf" // Updated to your specific resume file
             download
             className="hidden md:block px-4 py-1.5 rounded-full bg-primary text-primary-foreground font-medium 
                    transition-all duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:scale-105 active:scale-95 text-sm"
