@@ -33,7 +33,7 @@ This portfolio website features:
 
 ## Screenshots
 
-![Portfolio Screenshot]([screenshots/portfolio-screenshot.png](https://github.com/wmrmweerakoon/SimpleProfessionalPortfolio/blob/main/Screenshot%202026-01-28%20195310.png))
+![Portfolio Screenshot]((https://github.com/wmrmweerakoon/SimpleProfessionalPortfolio/blob/main/Screenshot%202026-01-28%20195310.png))
 
 ## Installation
 
