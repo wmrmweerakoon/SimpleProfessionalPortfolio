@@ -12,7 +12,7 @@ export const HeroSection = () => {
           <div className="flex-shrink-0 flex justify-center md:block order-2 md:order-1">
             <div className="p-1 bg-gradient-to-br from-primary to-secondary rounded-xl overflow-hidden shadow-xl shadow-primary/20">
               <img
-                src="/src/assets/my dp.png"
+                src="/profile.png"
                 alt="Ruvishan Maleesha"
                 className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-xl border-4 border-background bg-background"
               />
