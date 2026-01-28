@@ -4,17 +4,17 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center px-4 py-12"
+      className="relative min-h-screen flex items-center px-4 py-12 pt-20"
     >
       <div className="container max-w-6xl mx-auto z-10">
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-12">
           {/* Profile Image - Left Side */}
           <div className="flex-shrink-0 flex justify-center md:block order-2 md:order-1">
-            <div className="p-1 bg-gradient-to-br from-primary to-secondary rounded-full overflow-hidden shadow-xl">
+            <div className="p-1 bg-gradient-to-br from-primary to-secondary rounded-xl overflow-hidden shadow-xl shadow-primary/20">
               <img
                 src="/src/assets/my dp.png"
                 alt="Ruvishan Maleesha"
-                className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-full border-4 border-background"
+                className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-xl border-4 border-background bg-background"
               />
             </div>
           </div>
