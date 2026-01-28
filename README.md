@@ -2,6 +2,14 @@
 
 Welcome to my personal portfolio showcasing my work, skills, and experience as a Software Engineering undergraduate at SLIIT and Full-Stack Developer.
 
+## Live Demo
+
+[Live Demo Link](https://ruvishan.netlify.app)
+
+## Screenshots
+
+![Portfolio Screenshot](https://github.com/wmrmweerakoon/SimpleProfessionalPortfolio/blob/main/Screenshot%202026-01-28%20195310.png)
+
 ## About This Project
 
 This portfolio website features:
@@ -26,14 +34,6 @@ This portfolio website features:
 - Tailwind CSS
 - Material Design Icons (MDI)
 - Lucide React Icons
-
-## Live Demo
-
-[Live Demo Link](https://ruvishan.netlify.app )
-
-## Screenshots
-
-![Portfolio Screenshot](https://github.com/wmrmweerakoon/SimpleProfessionalPortfolio/blob/main/Screenshot%202026-01-28%20195310.png)
 
 ## Installation
 
