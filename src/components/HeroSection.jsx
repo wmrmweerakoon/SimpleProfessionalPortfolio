@@ -6,8 +6,8 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex items-center px-4 py-12 pt-20"
     >
-      <div className="container max-w-6xl mx-auto z-10">
-        <div className="flex flex-col md:flex-row items-center gap-16 md:gap-20">
+      <div className="container max-w-6xl mx-auto z-10 px-4">
+        <div className="flex flex-col md:flex-row items-center gap-16 md:gap-24 justify-between w-full">
           {/* Profile Image - Left Side */}
           <div className="flex-shrink-0 flex justify-center md:block order-2 md:order-1">
             <div className="p-1 bg-gradient-to-br from-primary to-secondary rounded-xl overflow-hidden shadow-xl shadow-primary/20">
@@ -20,7 +20,7 @@ export const HeroSection = () => {
           </div>
 
           {/* Details - Right Side */}
-          <div className="flex-1 text-center md:text-left space-y-6 order-1 md:order-2">
+          <div className="flex-1 text-left space-y-6 order-1 md:order-2">
             <div className="space-y-3">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-montserrat">
                 <span className="opacity-0 animate-fade-in">Hi, I'm</span><br/>
