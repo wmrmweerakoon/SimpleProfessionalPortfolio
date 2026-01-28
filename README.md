@@ -29,11 +29,11 @@ This portfolio website features:
 
 ## Live Demo
 
-[Live Demo Link](https://your-live-demo-url.com)
+[Live Demo Link](https://ruvishan.netlify.app )
 
 ## Screenshots
 
-![Portfolio Screenshot](screenshots/portfolio-screenshot.png)
+![Portfolio Screenshot]([screenshots/portfolio-screenshot.png](https://github.com/wmrmweerakoon/SimpleProfessionalPortfolio/blob/main/Screenshot%202026-01-28%20195310.png))
 
 ## Installation
 
