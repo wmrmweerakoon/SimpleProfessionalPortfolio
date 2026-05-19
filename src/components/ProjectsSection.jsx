@@ -2,6 +2,24 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    id: 5,
+    title: "AI-Enabled Smart Healthcare & Telemedicine Platform",
+    description: "A cloud-native, microservices-based healthcare platform built with Node.js, React, MongoDB, Docker, Kubernetes, Jitsi WebRTC, Stripe, and Twilio. Features 10+ decoupled services including real-time video consultations, AI symptom checking, role-based access control, and dual-channel notifications.",
+    image: "/projects/healthcare.png",
+    tags: ["Node.js", "React", "MongoDB", "Docker", "Kubernetes", "Microservices", "Jitsi WebRTC", "Stripe", "Twilio"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/wmrmweerakoon/smart-healthcare-platform",
+  },
+  {
+    id: 6,
+    title: "AgriTrace — Food Traceability Platform",
+    description: "A full-stack farm-to-table traceability platform built with React, Node.js, Express, MongoDB Atlas, JWT, and QR Code generation. Enables consumers to track food origin and journey across Farmer, Distributor, Retailer, and Consumer roles. Deployed on Vercel + Render with full unit, integration, and load testing via Artillery.io.",
+    image: "/projects/agritrace.png",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "QR Code", "Vercel", "Artillery.io"],
+    demoUrl: "https://food-traceability-app.vercel.app",
+    githubUrl: "https://github.com/wmrmweerakoon/food-traceability",
+  },
+  {
     id: 1,
     title: "LeafLink – Plant Marketplace",
     description: "Full-stack MERN e-commerce platform for buying and selling plants. Features secure JWT authentication, Stripe payments, seller & admin dashboards, Cloudinary image storage, and an AI-powered plant care assistant using the Gemini API.",
@@ -27,7 +45,7 @@ const projects = [
     tags: ["Figma", "UI/UX", "Prototyping", "Mindfulness", "Mobile Design"],
     demoUrl: "https://www.figma.com/design/dgI38dwgz9Q7H679SC0XdG/MAD?node-id=0-1&t=fkreZlF7paIRDARB-1",
     githubUrl: "https://github.com/wmrmweerakoon/YouCalm-Mobile-UI-Prototype",
- },
+  },
   {
     id: 4,
     title: "AI PDF Content Finder",
@@ -36,24 +54,6 @@ const projects = [
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express.js", "PDF.js", "Gemini API"],
     demoUrl: "https://pdf-ai-finder.web.app/",
     githubUrl: "https://github.com/wmrmweerakoon/AskMyPDF.git",
-  },
-  {
-    id: 5,
-    title: "AI-Enabled Smart Healthcare & Telemedicine Platform",
-    description: "A cloud-native, microservices-based healthcare platform built with Node.js, React, MongoDB, Docker, Kubernetes, Jitsi WebRTC, Stripe, and Twilio. Features 10+ decoupled services including real-time video consultations, AI symptom checking, role-based access control, and dual-channel notifications.",
-    image: "/projects/healthcare.png",
-    tags: ["Node.js", "React", "MongoDB", "Docker", "Kubernetes", "Microservices", "Jitsi WebRTC", "Stripe", "Twilio"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/wmrmweerakoon/smart-healthcare-platform",
-  },
-  {
-    id: 6,
-    title: "AgriTrace — Food Traceability Platform",
-    description: "A full-stack farm-to-table traceability platform built with React, Node.js, Express, MongoDB Atlas, JWT, and QR Code generation. Enables consumers to track food origin and journey across Farmer, Distributor, Retailer, and Consumer roles. Deployed on Vercel + Render with full unit, integration, and load testing via Artillery.io.",
-    image: "/projects/agritrace.png",
-    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "QR Code", "Vercel", "Artillery.io"],
-    demoUrl: "https://food-traceability-app.vercel.app",
-    githubUrl: "https://github.com/wmrmweerakoon/food-traceability",
   },
 ];
 
