@@ -37,6 +37,24 @@ const projects = [
     demoUrl: "https://pdf-ai-finder.web.app/",
     githubUrl: "https://github.com/wmrmweerakoon/AskMyPDF.git",
   },
+  {
+    id: 5,
+    title: "AI-Enabled Smart Healthcare & Telemedicine Platform",
+    description: "A cloud-native, microservices-based healthcare platform built with Node.js, React, MongoDB, Docker, Kubernetes, Jitsi WebRTC, Stripe, and Twilio. Features 10+ decoupled services including real-time video consultations, AI symptom checking, role-based access control, and dual-channel notifications.",
+    image: "/projects/healthcare.png",
+    tags: ["Node.js", "React", "MongoDB", "Docker", "Kubernetes", "Microservices", "Jitsi WebRTC", "Stripe", "Twilio"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/wmrmweerakoon/smart-healthcare-platform",
+  },
+  {
+    id: 6,
+    title: "AgriTrace — Food Traceability Platform",
+    description: "A full-stack farm-to-table traceability platform built with React, Node.js, Express, MongoDB Atlas, JWT, and QR Code generation. Enables consumers to track food origin and journey across Farmer, Distributor, Retailer, and Consumer roles. Deployed on Vercel + Render with full unit, integration, and load testing via Artillery.io.",
+    image: "/projects/agritrace.png",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "QR Code", "Vercel", "Artillery.io"],
+    demoUrl: "https://food-traceability-app.vercel.app",
+    githubUrl: "https://github.com/wmrmweerakoon/food-traceability",
+  },
 ];
 
 export const ProjectsSection = () => {
