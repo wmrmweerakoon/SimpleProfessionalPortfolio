@@ -87,6 +87,18 @@
       opacity: 0;
     }
   }
+
+  @keyframes gradient-bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 }
 
 @layer base {
@@ -120,7 +132,7 @@
 
 
   * {
-    @apply border-border;
+    @apply border-border cursor-none;
   }
 
   html {
@@ -128,8 +140,17 @@
   }
 
   body {
-    @apply bg-background text-foreground transition-colors duration-300 font-ubuntu;
+    @apply text-foreground transition-colors duration-300 font-ubuntu;
     font-feature-settings: "rlig" 1, "calt" 1;
+    background: linear-gradient(
+      -45deg, 
+      hsl(var(--background)), 
+      #f8fafc, 
+      #f1f5f9, 
+      hsl(var(--background))
+    );
+    background-size: 400% 400%;
+    animation: gradient-bg 20s ease infinite;
   }
 }
 

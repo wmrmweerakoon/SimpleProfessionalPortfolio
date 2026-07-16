@@ -50,7 +50,7 @@ export const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-40 transition-all duration-300 ${
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-sm" : "py-5"
+        isScrolled ? "py-3 bg-background/50 backdrop-blur-xl border-b border-border/50 shadow-sm" : "py-5 bg-transparent"
       }`}
     >
       <div className="container flex items-center justify-between">
@@ -106,8 +106,8 @@ export const Navbar = () => {
         {/* Download CV Button and Mobile menu */}
         <div className="flex items-center space-x-2">
           <a
-            href="/Ruvishan_Maleesha_CV.pdf" // Updated to your specific resume file
-            download
+            href="/Ruvishan_CV%20Last.pdf"
+            download="Ruvishan_Maleesha_CV.pdf"
             className="hidden md:block px-4 py-1.5 rounded-full bg-primary text-primary-foreground font-medium 
                    transition-all duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:scale-105 active:scale-95 text-sm"
             aria-label="Download CV"

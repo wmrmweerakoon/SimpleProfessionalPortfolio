@@ -1,28 +1,39 @@
 import { ArrowDown } from "lucide-react";
 import { mdiLinkedin } from '@mdi/js';
 import { Icon } from '@mdi/react';
+import { motion } from "framer-motion";
 
 export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center px-4 py-12 pt-20"
+      className="relative min-h-screen flex items-center px-4 py-24 md:py-32"
     >
       <div className="container max-w-6xl mx-auto z-10 px-4">
-        <div className="flex flex-col md:flex-row items-center justify-end gap-32 w-full">
+        <div className="flex flex-col md:flex-row items-center justify-end gap-20 md:gap-32 w-full">
           {/* Profile Image - Left Side */}
-          <div className="flex justify-center md:justify-start w-2/5 pl-8">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="flex justify-center md:justify-start w-full md:w-2/5 md:pl-8 mb-12 md:mb-0"
+          >
             <img
               src="/profile.png"
               alt="Ruvishan Maleesha"
               className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover rounded-full"
             />
-          </div>
+          </motion.div>
 
           {/* Content - Right Side */}
-          <div className="space-y-6 text-left max-w-2xl w-3/5">
-            <div className="space-y-4">
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-ubuntu leading-tight">
+          <motion.div 
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            className="space-y-8 text-left max-w-2xl w-full md:w-3/5"
+          >
+            <div className="space-y-5">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-ubuntu leading-tight tracking-tight">
                 Let's Build & Solve
               </h1>
 
@@ -35,7 +46,7 @@ export const HeroSection = () => {
               </h3>
             </div>
 
-            <p className="text-xs sm:text-sm md:text-base text-muted-foreground max-w-2xl leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed tracking-wide">
               I am a Software Engineering undergraduate actively seeking an internship where I can apply my skills in full-stack web development, AI-integrated systems, and user-centered design, while learning from real-world engineering practices and contributing meaningfully to a professional development team.
             </p>
 
@@ -51,7 +62,7 @@ export const HeroSection = () => {
                 LinkedIn
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 

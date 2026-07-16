@@ -1,4 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { motion } from "framer-motion";
 
 const projects = [
   {
@@ -59,9 +60,15 @@ const projects = [
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-32 px-4 relative">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 font-unbounded">
             Featured <span className="text-primary">Projects</span>
           </h2>
@@ -69,12 +76,19 @@ export const ProjectsSection = () => {
             Here are some of my recent projects. Each project was carefully
             crafted with attention to detail, performance, and user experience.
           </p>
-        </div>
+          </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {projects.map((project, key) => (
-            <div key={key} className="bg-card rounded-xl overflow-hidden shadow-lg border-border flex flex-col h-full cursor-pointer hover:shadow-xl transition-shadow duration-300">
-              <div className="overflow-hidden flex items-center justify-center bg-muted p-4">
+            <motion.div 
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ duration: 0.6, delay: key * 0.1 }}
+              key={key} 
+              className="bg-card/40 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-border/50 flex flex-col h-full cursor-pointer hover:shadow-2xl hover:bg-card/60 transition-all duration-500 hover:-translate-y-2"
+            >
+              <div className="overflow-hidden flex items-center justify-center bg-muted/30 p-4">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -137,7 +151,7 @@ export const ProjectsSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
 
